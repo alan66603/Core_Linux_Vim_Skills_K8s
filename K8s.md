@@ -7,3 +7,5 @@
 * 總指揮(Master Node)的傳達給小船(Worker Node)的各種指令，都是由 kube-apiserver 發送給船長 kubelet 來完成的。
 
 * 船上的通訊系統由 CNI 負責發 IP、kube-proxy 負責轉發流量。
+
+![image](images/Kubernetes_Architecture.png)
